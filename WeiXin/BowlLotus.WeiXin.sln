@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{888A3692-FB30-48D7-AFCD-EEFCF686FBF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAEC3064-500C-45E5-80BC-448C2B8D24B1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlLotus.WeiXin.Kemel", "src\BowlLotus.WeiXin.Kemel\BowlLotus.WeiXin.Kemel.xproj", "{AD9853D4-3B25-4591-9B8F-898C1680E97F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlLotus.WeiXin.Base", "src\BowlLotus.WeiXin.Base\BowlLotus.WeiXin.Base.xproj", "{15C85940-AA90-4C77-A278-409AD0F3A4E1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlLotus.WeiXin.WebApi", "src\BowlLotus.WeiXin.WebApi\BowlLotus.WeiXin.WebApi.xproj", "{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlLotus.WeiXin.WebSite", "src\BowlLotus.WeiXin.WebSite\BowlLotus.WeiXin.WebSite.xproj", "{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlLotus.WeiXinTest", "src\BowlLotus.WeiXinTest\BowlLotus.WeiXinTest.xproj", "{46ED345E-3AF3-4C22-A045-8CBC028D8F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9853D4-3B25-4591-9B8F-898C1680E97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9853D4-3B25-4591-9B8F-898C1680E97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9853D4-3B25-4591-9B8F-898C1680E97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9853D4-3B25-4591-9B8F-898C1680E97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C85940-AA90-4C77-A278-409AD0F3A4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C85940-AA90-4C77-A278-409AD0F3A4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C85940-AA90-4C77-A278-409AD0F3A4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C85940-AA90-4C77-A278-409AD0F3A4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ED345E-3AF3-4C22-A045-8CBC028D8F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ED345E-3AF3-4C22-A045-8CBC028D8F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ED345E-3AF3-4C22-A045-8CBC028D8F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ED345E-3AF3-4C22-A045-8CBC028D8F66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD9853D4-3B25-4591-9B8F-898C1680E97F} = {888A3692-FB30-48D7-AFCD-EEFCF686FBF0}
+		{15C85940-AA90-4C77-A278-409AD0F3A4E1} = {888A3692-FB30-48D7-AFCD-EEFCF686FBF0}
+		{B905AD28-F94D-4149-A6DC-0B0BA6A7F3B9} = {888A3692-FB30-48D7-AFCD-EEFCF686FBF0}
+		{9BABB24A-530C-4D8A-801A-5B2BBF5A2C9A} = {888A3692-FB30-48D7-AFCD-EEFCF686FBF0}
+		{46ED345E-3AF3-4C22-A045-8CBC028D8F66} = {888A3692-FB30-48D7-AFCD-EEFCF686FBF0}
+	EndGlobalSection
+EndGlobal
